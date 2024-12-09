@@ -123,11 +123,15 @@ button {
 
 .order-service {
     background-color: #2e2f42;
-    display: flex;
-    width: 1440px;
-    height: 600px;
+    display: block;
+    
     margin-left: auto;
     margin-right: auto;
+    padding: 188px 472px 292px;
+}
+.conteiner-sec-one{
+    width: 1440px;
+    height: 600px;
 }
 .title-order-service {
     font-weight: 700;
@@ -140,11 +144,7 @@ button {
     display: flex;
     max-width: 496px;
     margin: 0 auto;
-}
-.btn-cont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 0 0 48px 0;
 }
 .btn-order-service {
     font-family: "Roboto", sans-serif;
@@ -156,25 +156,26 @@ button {
     background-color: #4d5ae5;
     padding: 16px 32px;
     border-color: transparent;
-    margin: 48px 0;
+    margin: 0 auto;
     border: none;
     display: block;
     min-width: 169px;
-
-}
+    height: 56px;
+    }
 .btn-order-service:hover, 
 .btn-order-service:focus{
     background-color: #404bbf;
 }
+
 /*#endregion section 1 Order Service*/
 /*#region section 2 Advantages*/
 .advantages {
-    border-top: 1px solid #e7e9fc;
-    padding: 120px 156px;
-    justify-content: center;
+    /*width: 1128px;
+    height: 104px;*/
 }
-.cont-sec-two{
+.conteiner-sec-two {
     margin: 0;
+    padding: 120px 156px;
     width: calc((100%-3*24)/4);
 }
 .adv-list {
@@ -210,7 +211,7 @@ button {
 .our-team {
     background-color: #f4f4fd;
 }
-.cont-sec-three{
+.conteiner-sec-three{
     border-top: 1px solid #e7e9fc;
     padding: 232px 120px 156px;
     margin: 0;
@@ -264,16 +265,22 @@ button {
 /*#endregion section 3 Our Team*/
 
 /*#region section 4 Our Portfolio*/
-.our-portfolio {
+.our-portfolio-category {
+    width: 360px;
+    height: 420px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+    
+
 }
-.title-our-team .title-our-team {
+.title-our-team {
 }
 .list-our-portfolio {
     display: flex;
-    flex-direction: row;
+    flex-direction: wrap;
     gap: 24px;
-}
-.our-team-category .our-portfolio-category {
 }
 .image-our-portfolio {
 }
@@ -294,15 +301,12 @@ button {
     padding: 8px 0 0 0;
 }
 
-.cont-sec-four {
-    border-top: 1px solid #e7e9fc;
+.conteiner-sec-four {
     padding: 120px 156px;
     margin: 0;
     width: calc((100%-5*24)/6);
 }
 .cont-out-port { 
-    
-
 }
 /*#endregion section 4 Our Portfolio*/
 
