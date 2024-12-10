@@ -237,6 +237,7 @@ button {
 
 .container-sec-three{
     border-top: 1px solid #e7e9fc;
+    border-radius: 0px 0px 4px 4px;
     /*padding: 232px 120px 156px;*/
     margin: 0;
     width: calc((100%-3*24)/4);
@@ -273,11 +274,12 @@ button {
 
 .image-our-team {
     display: block;
-    border-radius: 0px 0px 4px 4px;
+    /*border-radius: 0px 0px 4px 4px;*/
 }
 
 .cont-our-team {
-    padding: 16px 32px;
+    padding: 32px 0;
+    /*padding: 16px 32px;*/
 }
 
 .name-our-team {
@@ -287,6 +289,7 @@ button {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 .desc-our-team {
     font-weight: 400;
@@ -309,7 +312,7 @@ button {
     /*padding: 120px 0 120px 0;*/
     padding: 32px 16px;
     margin: 0;
-    width: calc((100%-5*24)/6);
+    width: calc((100%-2*24)/3);
 }
 
 .title-our-portfolio {
@@ -336,7 +339,6 @@ button {
 .our-portfolio-category {
     width: 360px;
     height: 420px;
-    border-bottom: 1px solid #e7e9fc;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
